@@ -1,4 +1,4 @@
-# Computational Methods :metal: : Impact of Pregnancy-specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice"
+# Computational Methods: Impact of Pregnancy-specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice"
 
 **Author**: Mark E. Pepin
 **Contact**: pepinme@uab.edu
