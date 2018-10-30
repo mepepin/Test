@@ -1,9 +1,13 @@
-# Computational Methods Defining the Impact of Pregnancy-specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice
+# Computational Methods Defining the Impact of Pregnancy-Specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice
 
 **Author**: Mark E. Pepin
 **Contact**: pepinme@uab.edu
 **Institution**: University of Alabama at Birmingham  
 **Location**: 542 Biomedical Research Building 2, Birmingham, AL 35294
+
+## Introduction
+
+This document summarizes the computational methods that were used to examine the contribution of prolactin receptor-mediated control of beta cell transcriptional reprogramming on metabolic adaptation to pregnancy. The **Supplemental Tables** and **Supplemental Figures** are located in files above this document (available for download).
 
 ## Microarray Pre-processing
 
