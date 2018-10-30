@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This document summarizes the computational methods that were used to examine the contribution of prolactin receptor-mediated control of beta cell transcriptional reprogramming on metabolic adaptation to pregnancy. The **Supplemental Tables** and **Supplemental Figures** are located in files above this document (available for download).
+This document summarizes the computational methods that were used to examine the contribution of prolactin receptor-mediated control of beta cell transcriptional reprogramming on metabolic adaptation to pregnancy. The **Supplemental Tables** (as .xlsx file) and **Supplemental Figures** (as .pptx file) are located in files above this document (available for download).
 
 ## Microarray Pre-processing
 
