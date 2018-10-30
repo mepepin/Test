@@ -7,7 +7,7 @@
 
 ## Microarray Pre-processing
 
-Before differential expression could be generated, the Affymetrix array was first pre-processed for numerous quality assessments using the **aoligo** package in **r**. The raw data were first adjusted for background signal noise, as well as normalized across samples using the quantile normalization and summarization as previously described (see oligo methods).
+Before differential expression could be generated, the Affymetrix array was first pre-processed for numerous quality assessments using the **oligo** package in **r**. The raw data were first adjusted for background signal noise, as well as normalized across samples using the quantile normalization and summarization as previously described (see oligo methods).
 
 
 
