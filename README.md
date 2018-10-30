@@ -118,7 +118,6 @@ results_ebayes<-as.data.frame(ebayes)
 results_ebayes<-merge(results_ebayes, crma, by=0)
 ```
 
-\pagebreak
 
 ## Data Visualizations
 
@@ -182,7 +181,6 @@ dev.off()
 
 ### Principal Components Analysis
 
-
 ```r
 #Plot Features of the PCA
 library(dplyr)
@@ -239,7 +237,6 @@ autoplot(pca.comp, data = data.pca_Final, colour = "KO")
 ![](README_files/figure-html/2D_PCA_TG.v.NTG-1.png)<!-- -->
 
 ### Heatmap and Hierarchical Clustering
-
 
 ```r
 library(pheatmap)
