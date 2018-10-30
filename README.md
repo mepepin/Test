@@ -1,11 +1,11 @@
-"Bioinformatics Analysis: Impact of Pregnancy-specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice"
+# "Bioinformatics Analysis: Impact of Pregnancy-specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice"
 
 **Author**: Mark E. Pepin
 **Contact**: pepinme@uab.edu
 **Institution**: University of Alabama at Birmingham  
 **Location**: 542 Biomedical Research Building 2, Birmingham, AL 35294
 
-# Microarray Pre-processing
+## Microarray Pre-processing
 
 Before differential expression could be generated, the Affymetrix array was first pre-processed for numerous quality assessments using the **aoligo** package in **r**. The raw data were first adjusted for background signal noise, as well as normalized across samples using the quantile normalization and summarization as previously described (see oligo methods).
 
@@ -120,9 +120,9 @@ results_ebayes<-merge(results_ebayes, crma, by=0)
 
 \pagebreak
 
-# Data Visualizations
+## Data Visualizations
 
-## QQ Plot
+### QQ Plot
 
 
 ```r
@@ -146,7 +146,7 @@ dev.off()
 ##                 2
 ```
 
-## Volcano Plot
+### Volcano Plot
 
 
 ```r
@@ -180,7 +180,7 @@ dev.off()
 ##                 2
 ```
 
-## Principal Components Analysis
+### Principal Components Analysis
 
 
 ```r
@@ -238,7 +238,7 @@ autoplot(pca.comp, data = data.pca_Final, colour = "KO")
 
 ![](README_files/figure-html/2D_PCA_TG.v.NTG-1.png)<!-- -->
 
-## Heatmap and Hierarchical Clustering
+### Heatmap and Hierarchical Clustering
 
 
 ```r
@@ -267,7 +267,7 @@ pheatmap(results_DEG,
 
 ![](README_files/figure-html/heatmap_TG.v.NTG-1.png)<!-- -->
 
-## Circular Genome Plot of Differentially-Expressed EZH2 Targets
+### Circular Genome Plot of Differentially-Expressed EZH2 Targets
 
 
 ```r
@@ -366,7 +366,7 @@ circos.genomicLink(Link, Link_Anchor, col="black", lwd=0.5)
 circos.clear()
 ```
 
-# Cross-Study Candidate Validation
+## Cross-Study Candidate Validation
 
 Based on the dataset published by Schraenen et. al 2015 (PMID), we wanted to determine whether the transcriptional changes due to PRLR-knockout were impacted by pregnancy alone. To test this, we acquired the expression data from GEO, and analyzed based on the following differential-expression analysis workflow. Because C57Bl6/J mice exhibited dysglycemia at day-30 of high-fat diet treatment, we chose to examine the time-point immediately prior to onset of dysglycemia (day 10) to minimize the confounding effects of the diabetic milieu.
 
@@ -401,7 +401,7 @@ Based on the dataset published by Schraenen et. al 2015 (PMID), we wanted to det
 ## colData names(5): Sample_ID Strain Diet Duration sizeFactor
 ```
 
-# Comparison of bPRLR-KO DEGs with HFD-induced DEGs
+## Comparison of bPRLR-KO DEGs with HFD-induced DEGs
 
 We then examined whether High-fat feeding and pregnancy employed overlapping transcriptional pathways for beta cell adaptation. Based on these results, we see a clear divergence in the transcriptional signature.
 
@@ -420,7 +420,7 @@ plot(venny, doWeights = T)
 
 ![](README_files/figure-html/Venn.Diagram-1.png)<!-- -->
 
-# Supplemental Table: R Session Information
+## Supplemental Table: R Session Information
 
 All packages and setting are acquired using the following command: 
 
