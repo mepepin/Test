@@ -1,9 +1,6 @@
 # Computational Methods Defining the Impact of Pregnancy-Specific Prolactin Receptor Signaling on Pancreatic Islet Gene Expression in Mice
 
-**Author**: Mark E. Pepin
-**Contact**: pepinme@uab.edu
-**Institution**: University of Alabama at Birmingham  
-**Location**: 542 Biomedical Research Building 2, Birmingham, AL 35294
+**Authors**: Mark E. Pepin, PhD; Hayden H. Bickerton, BS; Maigen Bethea, BS; Chad S. Hunter, PhD; Adam R. Wende, PhD; Ronadip R. Banerjee, MD, PhD
 
 ## Introduction
 
